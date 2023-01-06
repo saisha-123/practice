@@ -1,7 +1,7 @@
 package com.constructorbase_secondaryType_corejava;
 
 public class Address {
-private String city;
+
 private String area;
 private int pincode;
 public Address(String city, String area, int pincode) {
@@ -10,9 +10,7 @@ public Address(String city, String area, int pincode) {
 	this.area = area;
 	this.pincode = pincode;
 }
-public String getCity() {
-	return city;
-}
+
 public String getArea() {
 	return area;
 }
